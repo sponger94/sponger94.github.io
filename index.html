@@ -89,9 +89,9 @@
 <div class="grid lg:grid-cols-2 gap-16 items-center">
 <div class="text-center lg:text-left">
 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                        Ваше личное пространство для хранения MeBox.
+                        MeBox — склады хранения. Скоро открытие! 
                     </h1>
-<p class="mt-6 text-lg text-gray-600">
+<p class="mt-6 text-left text-lg text-gray-600">
                         Self Storage — это услуга, где каждому Клиенту предоставляется собственный склад-бокс. Он сам распоряжается пространством, может в любое время привозить и забирать вещи, пользоваться удобной зоной для погрузки-разгрузки, а также тележками и подъёмным оборудованием при необходимости.
                     </p>
 <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -276,11 +276,11 @@
         selectedSize: '3m',
         rentPeriod: 0,
         warehouses: {
-            'Склад Худжанд 3мкр': 80,
-            'Склад Худжанд Волга Гараж': 80,
-            'Склад Худжад Кафе Шаршара': 80,
-            'Склад Душанбе Мед Институт': 100,
-            'Склад Душанбе Куштеппа-2': 100
+            'Склад (Контейнеры) Худжанд 3мкр (Здание)': 80,
+            'Склад Худжанд Волга Гараж (Контейнеры)': 80,
+            'Склад Худжад Кафе Шаршара (Контейнеры)': 80,
+            'Склад Душанбе Мед Институт (Контейнеры)': 100,
+            'Склад Душанбе Куштеппа-2 (Здание)': 100
         },
         sizes: { '3m': 3, '4m': 4, '14m': 14, '28m': 28 },
         periods: ['1 месяц', '2 месяца', '3 месяца', '4 месяца', '5 месяцев', '6 месяцев', '7 месяцев', '8 месяцев', '9 месяцев', '10 месяцев', '11 месяцев', '1 год'],
@@ -308,11 +308,11 @@
 <div>
 <label class="font-medium text-green-50" for="warehouse">Выберите склад</label>
 <select class="mt-2 block w-full rounded-md border-gray-300 bg-white text-gray-900 shadow-sm focus:border-brand-green focus:ring focus:ring-brand-green focus:ring-opacity-50" id="warehouse" x-model="selectedWarehouse">
-<option>Склад Худжанд 3мкр</option>
-<option>Склад Худжанд Волга Гараж</option>
-<option>Склад Худжад Кафе Шаршара</option>
-<option>Склад Душанбе Мед Институт</option>
-<option>Склад Душанбе Куштеппа-2</option>
+<option>Склад Худжанд 3мкр (Здание)</option>
+<option>Склад Худжанд Волга Гараж (Контейнеры)</option>
+<option>Склад Худжад Кафе Шаршара (Контейнеры)</option>
+<option>Склад Душанбе Мед Институт (Контейнеры)</option>
+<option>Склад Душанбе Куштеппа-2 (Здание)</option>
 </select>
 </div>
 <div>
@@ -344,7 +344,7 @@
 </div>
 <div class="mt-8 pt-6 border-t border-brand-green-dark/50">
 <p class="text-center font-medium text-white uppercase tracking-wide">
-                            Спрашивайте у операторов о действующих <a class="underline" href="#">акциях!</a>
+                            Спрашивайте у операторов о действующих акциях!
 </p>
 <div class="mt-6 flex flex-col sm:flex-row items-center justify-end gap-4">
 <div class="text-right">
@@ -354,7 +354,7 @@
 </div>
 </div>
 <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-<div class="text-center lg:text-left">
+<div class="text-left lg:text-left">
 <div x-cloak="" x-show="selectedSize === '3m'">
 <img alt="Изометрическое изображение склада 3м² с вещами" class="max-w-xs md:max-w-sm mx-auto mb-8" src="/assets/3m.png"/>
 <h4 class="text-2xl font-bold text-gray-900">Склад 3 м² — Всё и сразу? Легко!</h4>
@@ -489,7 +489,7 @@
 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">
                         Поможем с выбором склада.
                     </h2>
-<div class="space-y-4 text-lg text-gray-600">
+<div class="space-y-4 text-left text-lg text-gray-600">
 <p>
                             Новым клиентам иногда сложно подобрать правильную площадь склада.
                         </p>
@@ -500,19 +500,19 @@
                             Наши менеджеры также помогут Вам рассчитать оптимальную площадь.
                         </p>
 </div>
-<div class="mt-10 flex flex-col sm:flex-row gap-8 items-center justify-center lg:justify-start">
-<div class="flex items-center gap-3 text-gray-800">
+<div class="mt-10 flex flex-col sm:flex-row gap-8 items-center justify-start lg:justify-start">
+<div class="flex items-start gap-3 text-gray-800">
 <span class="material-symbols-outlined text-brand-green text-3xl">call</span>
 <div>
 <p class="text-sm text-gray-500">Телефон</p>
-<a class="font-semibold text-lg hover:text-brand-green transition-colors" href="tel:+992929329966">+992 (92) 932-99-66</a>
+<a class="font-semibold text-lg hover:text-brand-green transition-colors" href="tel:+992987339966">+992 (98) 733-99-66</a>
 </div>
 </div>
 <div class="flex items-center gap-3 text-gray-800">
 <span class="material-symbols-outlined text-brand-green text-3xl">mail</span>
 <div>
 <p class="text-sm text-gray-500">Email</p>
-<a class="font-semibold text-lg hover:text-brand-green transition-colors" href="mailto:inbox@mbox-sklad.ru">inbox@mbox-sklad.ru</a>
+<a class="font-semibold text-lg hover:text-brand-green transition-colors" href="mailto:-">[Скоро!]</a>
 </div>
 </div>
 </div>
@@ -546,7 +546,7 @@
 <div>
 <p class="font-medium text-white mb-1">Email</p>
 <p class="text-gray-400">
-<a class="hover:text-brand-green transition-colors" href="mailto:inbox@mbox-sklad.ru">inbox@mbox-sklad.ru</a>
+<a class="hover:text-brand-green transition-colors" href="-">[СКОРО!]</a>
 </p>
 </div>
 </div>
@@ -574,18 +574,18 @@
 <div>
 <h4 class="font-semibold text-white mb-4">Наши склады</h4>
 <ul class="space-y-3">
-<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Худжанд<br />3мкр</span></div></li>
-<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Худжанд<br />Волга Гараж</span></div></li>
-<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Худжад<br />Кафе Шаршара</span></div></li>
-<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Душанбе<br />Мед Институт</span></div></li>
-<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Душанбе<br />Куштеппа-2</span></div></li>
+<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Худжанд<br />3мкр (Здание)</span></div></li>
+<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Худжанд<br />Волга Гараж (Контейнеры)</span></div></li>
+<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Худжад<br />Кафе Шаршара (Контейнеры)</span></div></li>
+<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Душанбе<br />Мед Институт (Контейнеры)</span></div></li>
+<li><div class="flex items-start text-sm"><span class="material-symbols-outlined text-brand-green mr-2 text-2xl">location_on</span> <span>Склад Душанбе<br />Куштеппа-2 (Здание)</span></div></li>
 </ul>
 </div>
 <div>
 <h4 class="font-semibold text-white mb-4">Поддержка</h4>
 <ul class="space-y-2">
-<li><a class="hover:text-brand-green transition-colors text-sm" href="#">FAQ</a></li>
-<li><a class="hover:text-brand-green transition-colors text-sm" href="#">Политика конфиденциальности</a></li>
+<li><a class="hover:text-brand-green transition-colors text-sm" href="faq.html">FAQ</a></li>
+<li><a class="hover:text-brand-green transition-colors text-sm" href="#">Политика конфиденциальности [СКОРО!]</a></li>
 </ul>
 </div>
 </div>
